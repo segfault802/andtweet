@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Copyright (C) 2008 Torgny Bjers
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	     http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/MAIN_MENU">
+		<item android:title="@string/options_menu_reload" android:id="@+id/reload_menu_item"
+			android:alphabeticShortcut="r" android:icon="@drawable/ic_menu_reload"></item>
+		<item android:id="@+id/friends_timeline_menu_id" android:title="@string/options_menu_friends_timeline"
+			android:alphabeticShortcut="f" android:titleCondensed="@string/options_menu_friends_timeline_cond"
+			android:icon="@drawable/ic_menu_timeline"></item>
+		<item android:id="@+id/favorites_timeline_menu_id" android:title="@string/options_menu_favorites_timeline"
+			android:alphabeticShortcut="a" android:titleCondensed="@string/options_menu_favorites_timeline_cond"
+			android:icon="@drawable/ic_menu_favorites"></item>
+		<item android:title="@string/options_menu_mentions" android:id="@+id/mentions_menu_id"
+			android:icon="@drawable/ic_menu_mentions" android:alphabeticShortcut="e"></item>
+		<item android:id="@+id/direct_messages_menu_id" android:title="@string/options_menu_direct_messages"
+			android:alphabeticShortcut="d" android:titleCondensed="@string/options_menu_direct_messages_cond"
+			android:icon="@drawable/ic_menu_direct_messages"></item>
+		<item android:title="@string/options_menu_search" android:id="@+id/search_menu_id"
+			android:icon="@drawable/ic_menu_search" android:alphabeticShortcut="s"></item>
+		<item android:title="@string/options_menu_preferences" android:id="@+id/preferences_menu_id"
+			android:alphabeticShortcut="p" android:icon="@drawable/ic_menu_preferences"></item>
+<!-- DISABLED FOR NOW
+		<item android:id="@+id/help_menu_id" android:title="@string/options_menu_help"
+			android:icon="@drawable/ic_menu_help" android:alphabeticShortcut="h"></item>
+		<item android:title="@string/options_menu_about"
+			android:titleCondensed="@string/options_menu_about_cond" android:id="@+id/about_menu_id"
+			android:icon="@drawable/icon" android:alphabeticShortcut="a"></item>
+-->
+	</group>
+</menu>

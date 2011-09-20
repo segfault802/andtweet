@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	Copyright (C) 2008 Torgny Bjers
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	     http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	For 'android:attr' reference see: http://developer.android.com/reference/android/R.attr.html
+	For 'android:color' reference see: http://developer.android.com/reference/android/R.color.html
+ -->
+<resources>
+	<style name="Theme">
+		<item name="tweetUsernameAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetUsernameColor">?android:attr/textColorSecondary</item>
+		<item name="tweetUsernameStyle">bold</item>
+
+		<item name="tweetMessageAppearance">?android:attr/textAppearanceMedium</item>
+		<!-- yvolk: '?android:attr/textColorPrimary' causes black on black sometimes on Android v.2.3.3 ... -->
+		<item name="tweetMessageColor">?android:attr/textColorPrimaryNoDisable</item>
+		<item name="tweetMessageStyle">normal</item>
+
+		<item name="tweetSentDateAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetSentDateColor">?android:attr/textColorTertiary</item>
+		<item name="tweetSentDateStyle">italic</item>
+
+		<item name="textEditColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="windowBackgroundColor">?android:attr/colorBackground</item>
+	</style>
+	
+	<style name="Theme.AndTweet">
+	</style>
+
+	<style name="Theme.AndTweet.Small">
+		<item name="tweetUsernameAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetMessageAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetSentDateAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+
+	<style name="Theme.AndTweet.Large">
+		<item name="tweetUsernameAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="tweetMessageAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="tweetSentDateAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+
+	<!-- The Light style is in fact style with inverted colors  -->	
+	<style name="Theme.Light">
+        <item name="android:windowBackground">@android:drawable/screen_background_light</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_light</item>
+        <item name="android:textColorTertiary">@android:color/tertiary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_dark</item>
+        <item name="android:textColorTertiaryInverse">@android:color/tertiary_text_dark</item>
+        <item name="android:textColorPrimaryNoDisable">@android:color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@android:color/secondary_text_light_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@android:color/primary_text_dark_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@android:color/secondary_text_dark_nodisable</item>
+
+        <item name="android:popupWindowStyle">@android:style/Widget.PopupWindow</item>
+
+        <item name="android:listViewStyle">@android:style/Widget.ListView.White</item>
+        <item name="android:listDivider">@android:drawable/divider_horizontal_bright</item>
+        <item name="textEditColor">?android:textColorPrimary</item>
+        <item name="windowBackgroundColor">@android:color/background_light</item>
+	</style>
+
+	<style name="Theme.Light.AndTweet">
+	</style>
+
+	<style name="Theme.Light.AndTweet.Small">
+		<item name="tweetUsernameAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetMessageAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="tweetSentDateAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+
+	<style name="Theme.Light.AndTweet.Large">
+		<item name="tweetUsernameAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="tweetMessageAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="tweetSentDateAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+</resources>
